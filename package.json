@@ -1,0 +1,16 @@
+{
+  "name": "ical2csv",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+      "start": "electron NODE_ENV=production electron ./app/",
+      "package": "electron-packager . ical2csv --all --version=1.0.0"
+  },
+  "dependencies": {
+    "icalendar": "^0.7.1",
+    "json2csv": "^3.11.5"
+  },
+  "devDependencies": {
+    "electron-packager": "^10.1.2"
+  }
+}
